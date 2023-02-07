@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <Styled.BannerWrapper>
       <Styled.ImageWrapper>
-        <Image src="/images/london.jpeg" width="2900" height="2900" />
+        <Image src="/images/london.jpeg" width="800" height="800" />
       </Styled.ImageWrapper>
       <Styled.HeadingsWrapper>
         <Styled.MainHeader>Visit London</Styled.MainHeader>{' '}

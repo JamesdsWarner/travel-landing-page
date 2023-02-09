@@ -12,7 +12,9 @@ export default function ThingToDo({ header, desc, imgSrc, reversed }) {
         <Styled.ThingToDoDescription>{desc}</Styled.ThingToDoDescription>
         <Styled.FindOutMore>Find out more</Styled.FindOutMore>
       </Styled.ThingToDoTextWrapper>
-      <Image src={imgSrc} height="650" width="650" />
+      <Styled.ImageWrapper>
+        <Image src={imgSrc} height="550" width="550" />
+      </Styled.ImageWrapper>
     </Styled.ThingToDoWrapper>
   );
 }

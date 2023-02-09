@@ -3,13 +3,8 @@ import styled from 'styled-components';
 export const FooterWrapper = styled.div`
   display: flex;
   align-items: center;
-  width: 100vw;
   justify-content: space-around;
-  top: 0;
   flex-direction: row;
-  right: 0;
-  z-index: 999;
-  padding-bottom: -8px;
 `;
 
 export const FooterTextWrapper = styled.div`
@@ -17,6 +12,14 @@ export const FooterTextWrapper = styled.div`
   font-size: 20px;
   gap: 5px;
   cursor: pointer;
+  align-items: center;
+
+  > * {
+    &:last-child {
+      font-size: 30px;
+      margin-right: 10px;
+    }
+  }
 `;
 
 export const FooterText = styled.p``;

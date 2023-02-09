@@ -14,12 +14,9 @@ export const NavMenuWrapper = styled.div`
   z-index: 999;
 `;
 
-export const LogoWrapper = styled.div`
-  padding-left: 30px;
-`;
+export const LogoWrapper = styled.div``;
 
 export const NavLinksWrapper = styled.div`
-  padding-right: 70px;
   display: flex;
   gap: 60px;
   font-size: 20px;

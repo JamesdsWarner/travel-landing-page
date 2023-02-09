@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const BannerWrapper = styled.div``;
 
 export const ImageWrapper = styled.div`
-  width: 100vw;
   overflow: hidden;
 
   > * {
@@ -23,13 +22,17 @@ export const HeadingsWrapper = styled.div`
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-
   top: 420px;
   text-align: center;
 `;
 
 export const MainHeader = styled.h1`
   font-size: 60px;
+  width: 100vw;
+
+  @media screen and (max-width: 1222px) {
+    font-size: 50px;
+  }
 `;
 
 export const SubHeader = styled.h2`
